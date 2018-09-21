@@ -31,9 +31,9 @@ Os teste funcionais, conhecido como teste de caixa-preta e os testes estruturais
 
 A vida de um sistema de computação não é finalizada após a sua implementação, ele ainda será utilizado por muito tempo, e com certeza passará por muitas atualizações, tanto para correção de erros ou apenas para otimização. Uma das fases do processo de desenvolvimento de software é a manutenção de software, este é um procedimento de melhoria de um programa que já foi desenvolvido, ou seja, já está em ambiente de produção, ou que ainda está em desenvolvimento. Com a manutenção também é realizado a correção dos erros encontrados por usuários do sistema ou testes realizados por desenvolvedores \cite{rodrigoSpinola2011}.
 
-Existem diversas razões para que um software sofra alterações, principalmente se este implementar soluções aproximadas para problemas do mundo real, por exemplo, com o passar do tempo, conforme o melhor entendimento do problema, pode-se encontrar uma melhor solução, ou ainda, alterações de legislações de um determinado país ou novos requisitos do cliente.
+Existem diversas razões para que um software sofra alterações, principalmente se este implementar soluções aproximadas para problemas do mundo real, por exemplo, com o passar do tempo, conforme o melhor entendimento do problema, pode-se encontrar uma melhor solução, ou ainda, alterações de legislações de um determinado país, novos requisitos do cliente ou devido a forma inesperada de utilização do software pelos usuários.
 
-A manutenção de software pode ser dividida em diferentes tipos, segundo \cite{Pressman2005} é dividida em 4 tipos:
+A manutenção de software pode ser dividida em diferentes tipos, segundo \cite{iansommerville} é dividida em 3 tipos:
 
 
 \begin{itemize}
@@ -45,20 +45,21 @@ A manutenção de software pode ser dividida em diferentes tipos, segundo \cite{
 \end{itemize}
     
  \begin{itemize}  
-    \item Manutenção Evolutiva (ou perfectiva):
+    \item \textbf{Manutenção Evolutiva (Perfectiva):} Melhorar a qualidade do software, com modificações que não estavam previstas no documento de requisitos original do projeto, através da adição de novas funcionalidades, para obter um melhor desempenho ou a modificação do código para a adaptação a algum paradigma de programação. 
 \end{itemize}
     
-\begin{itemize}  
-    \item Manutenção Preventiva (reegenharia):
-\end{itemize}
-    
-
-
-
-
-
+A manutenção ocupa uma maior parte nos orçamentos de tecnologia da informação se comparado ao desenvolvimento, aproximadamente dois terços do orçamento, sendo a maioria destes para a implementação de novos requisitos do que na correção de \textit{bugs}. A \autoref{fig:figura-distribuicao-esforco} apresenta, de forma aproximada, a distribuição dos custos de manutenção. Dedicar esforços no projeto e implementação de um sistema, tornando-o mais compreensível e de fácil manutenção, pode reduzir os custos de futuras alterações. Boas práticas de engenharia de software e a utilização de desenvolvimento orientado a objeto, auxiliam para alcançar esta redução \cite{iansommerville}.
+\begin{figure}[!htb]
+    \centering
+    \caption{Distribuição do esforço de manutenção}
+    \includegraphics[width=0.5\textwidth]{./dados/figuras/distribuicao_do_esforco_de_manutencao}
+    \fonte{\cite{iansommerville}}
+    \label{fig:figura-distribuicao-esforco}
+\end{figure}
 
 
 
 \section{PROCESSO DE SOFTWARE}
 \label{sec:processoDeSoftware}
+
+testando 
